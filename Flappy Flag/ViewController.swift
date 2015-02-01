@@ -27,6 +27,13 @@ class ViewController: UIViewController {
 					let url = NSURL(string: "http://flagpedia.net/data/flags/normal/\(country_code.lowercaseString).png")
 					if let data = NSData(contentsOfURL: url!) {
 						self.flag!.image = UIImage(data: data)
+						let rotationAnimation = CABasicAnimation(keyPath:"transform.rotation.z")
+						rotationAnimation.toValue = (M_PI * 2.0) * 0.025
+						rotationAnimation.duration = 0.5
+						rotationAnimation.autoreverses = true
+						rotationAnimation.repeatCount = 10000000
+						rotationAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+						self.flag!.layer.addAnimation(rotationAnimation, forKey: "rotationAnimation")
 					}
 				}
 				self.sublabel!.text = ", ".join(divisions)
