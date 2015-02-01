@@ -12,6 +12,7 @@ WhereYat.locate { (location, error) in
     // var city:String? // eg. "New Orleans"
     // var metro_code:NSNumber? // eg. "504"
     // var country:String? // eg. "United States"
+    // var country_code_:String? // eg. "US"
     // var time_zone:String? // eg. "America/Chicago"
     // var longitude:NSNumber? // eg. "30.123"
     // var latitude:NSNumber? // eg. "-90.001"

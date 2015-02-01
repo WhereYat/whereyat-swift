@@ -38,6 +38,7 @@ public class WhereYatLocation: NSObject {
 	var city:String?
 	var metro_code:NSNumber?
 	var country:String?
+	var country_code:String?
 	var time_zone:String?
 	var longitude:NSNumber?
 	var latitude:NSNumber?
@@ -51,6 +52,7 @@ public class WhereYatLocation: NSObject {
 				self.city = response["city"] as String?
 				self.metro_code = response["metro_code"] as NSNumber?
 				self.country = response["country"] as String?
+				self.country_code = response["country_code"] as String?
 				self.time_zone = response["time_zone"] as String?
 				self.longitude = response["longitude"] as NSNumber?
 				self.latitude = response["latitude"] as NSNumber?
