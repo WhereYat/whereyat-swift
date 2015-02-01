@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'WhereYat'
   s.version = '0.0.1'
-  s.license = 'MIT'
+  s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = "Where y'at IP-based geolocation"
   s.homepage = 'https://github.com/WhereYat/whereyat-swift'
   s.social_media_url = 'http://twitter.com/zaneshannon'
