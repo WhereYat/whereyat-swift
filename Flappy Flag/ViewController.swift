@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
 	@IBOutlet var label:UILabel?
+	@IBOutlet var sublabel:UILabel?
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		self.label!.text = "USA"
 		WhereYat.locate { (location, error) in
 			if (error == nil) {
-				self.label!.text = location?.country
+				self.label!.text = location?.city
+				self.sublabel!.text = location?.country
 			}
 		}
 	}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>145249AE-CAB1-4921-B191-DD66204F7174</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Flappy Flag</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>269B743977EC93C9085AEE3CC00CE4AD95F9AEFE</key>
+		<string>github.com:WhereYat/whereyat-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Flappy Flag.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>269B743977EC93C9085AEE3CC00CE4AD95F9AEFE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:WhereYat/whereyat-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>269B743977EC93C9085AEE3CC00CE4AD95F9AEFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>269B743977EC93C9085AEE3CC00CE4AD95F9AEFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>whereyat-swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
