@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet var label:UILabel?
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		self.label!.text = "USA"
+		WhereYat.locate { (location, error) in
+			if (error == nil) {
+				self.label!.text = location?.country
+			}
+		}
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
 
 }
 
